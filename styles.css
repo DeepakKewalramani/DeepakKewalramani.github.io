@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+text-decoration:none;
+scroll-behavior:smooth;
+}@media (min-width: 600px) and (max-width: 800px) {
+  html { background: red; }
+}
+body{
+	font-family:'Ubuntu',san-serif;
+}
+nav{
+	position:fixed;
+	width:100%;
+	padding:20px 0;
+	z-index:999;
+}
+nav .navbar{
+	width:90%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin:auto;
+}
+nav .navbar .logo a{
+	font-weight: 500;
+	font-size: 45px;
+	color: orange;
+}
+nav .navbar .logo a:hover{
+	color: white;
+	 width: 30px;
+	 border-radius: 1px solid orange;
+}
+nav .navbar .menu{
+	display: flex;
+	position: relative;
+	font-color: white;
+}
+nav .navbar .menu li{
+	list-style: none;
+	margin: 0 4px;
+}
+nav .navbar .menu li a{
+	font-size: 27px;
+	font-weight: 500;
+	color: white;
+	padding: 6px 10px;
+	transition: width 2s;
+}
+nav .navbar .menu li a:hover{
+	color: orange;
+	 width: 30px;
+}
+nav .media-icons a{
+	color: orange;
+	font-size: 45px;
+	margin: 0 6px;
+}
+nav .media-icons a:hover{
+	color: white;
+	 width: 30px;
+	 border-radius: 1px solid orange;
+}
+nav .menu-btn, nav .cancel-btn{
+	position: absolute;
+	color: skyblue;
+	right: 30px;
+	top: 30px;
+	font-size: 30px;
+	cursor: pointer;
+	display: none;
+
+}
+.home{
+	height: 100vh;
+	width: 100%;
+	background: grey;
+}
+.home .home-content{
+	width: 90%;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+}
+.home .home-content .text-one{
+	font-size: 30px;
+	color: black;
+}
+.home .home-content .text-two{
+	font-size: 60px;
+	color: black;
+	font-weight: 600;
+	margin-left: -3px;
+}
+.home .home-content .text-three{
+	font-size: 40px;
+	color: black;
+	margin: 5px 0;
+}
+.home .home-content .text-four{
+	font-size: 22px;
+	color: black;
+	margin: 5px 0;
+}
+.home .button{
+	margin: 14px 0;
+}
+.home .button button{
+	outline: none;
+	padding: 8px 16px;
+	border-radius: 6px;
+	font-size: 25px;
+	background: orange;
+	border: 2px solid transparent;
+}
+.home .button button:hover{
+	outline: none;
+	padding: 8px 16px;
+	border-radius: 6px;
+	font-size: 25px;
+	background: white;
+	color: orange;
+	border: 2px solid orange;
+}
+section{
+	padding-top:40px;
+
+}
+section .content{
+	width: 80%;
+	margin: 40px auto;
+	margin-top: 10%;
+	height: 80%;
+
+}
+section .content .title{
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+	padding-bottom: 40px;
+	font-weight: 10;
+}
+section .content .about-area{
+	margin: 0 auto;
+	font-size: 25px;
+	text-align: center;
+	height: 100%;
+}
+
+section .content .about-area h3{
+	--tw-text-opacity: 1;
+    color: rgba(219,39,119,var(--tw-text-opacity));
+    font-size: 1.5em;
+    font-family: "Poppins;";
+}
+
+section .content .about-area h4{
+	margin: 20px;
+	font-size: 0.8em;
+}
+
+   
+section .content .email-area{
+	margin: 0 auto;
+	font-size: 15px;
+	text-align: center;
+	box-shadow: 0 0 20px #4b4a49;
+	border-radius: 50px 20px 25px;
+	justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 80px;
+}
+section .content .email-area a {
+    /*background-color: #add8e6;*/
+    background-color: orange;
+    text-decoration: none;
+    padding: .5em 2em;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-size: 1.3em;
+    color: #000;
+}
+section .content .email-area a:hover{
+	background-color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    border: 1px solid orange;
+    border-radius: 50px;
+    outline: none;
+    font-size: 1.3em;
+    color: orange;
+}
+section .content .skills-area{
+	width:70%;
+	align-items: center;
+	display: inline-block;
+	position:absolute;
+	top: 50%;
+	left: 50%
+}
+.skill h3{
+	font-size: 2em;
+	margin:0 auto ;
+	align-items: center;
+	display: inline-block;
+}
+.skill .bar{
+	background: orange;
+	font-size: 20px;
+	font-style:italic;
+	
+	text-align: center;
+	margin: 20px 10px;
+	height: 30px;
+
+}
+.footer{
+	width: 80%;
+	font-size: 1em;
+	text-align: center;
+	margin: 10px auto;
+}
