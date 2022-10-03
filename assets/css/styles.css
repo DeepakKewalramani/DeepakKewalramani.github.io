@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+#mainWrapper {
+  width: 100%;
+  height: 100vh;
+  background: url("../image/coming_soon.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=styles.css.map */
